@@ -1,0 +1,31 @@
+:root {
+    --background-color: #f0f8ff;
+    --background-color-popover: #f0f8ff7e;
+    --text-color: #333;
+    --app-bar-bg: rgba(248, 248, 248, 0.72);
+    --app-bar-text: #007aff;
+    --nav-bar-bg: rgba(248, 248, 248, 0.72);
+    --nav-bar-text: #007aff;
+    --border-color: #e5e5e5;
+    --button-hover-bg: rgba(0, 122, 255, 0.1);
+    --button-active-bg: rgba(0, 122, 255, 0.2);
+    --searchbar-active-bg: #ffffff;
+    --searchbar-outline-color: #007aff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #121212;
+        --background-color-popover: #1212127c;
+        --text-color: #e0e0e0;
+        --app-bar-bg: rgba(30, 30, 30, 0.72);
+        --app-bar-text: #bb86fc;
+        --nav-bar-bg: rgba(30, 30, 30, 0.72);
+        --nav-bar-text: #bb86fc;
+        --border-color: #333;
+        --button-hover-bg: rgba(187, 134, 252, 0.1);
+        --button-active-bg: rgba(187, 134, 252, 0.2);
+        --searchbar-active-bg: #1e1e1e;
+        --searchbar-outline-color: #bb86fc;
+    }
+}
